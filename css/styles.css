@@ -1,0 +1,304 @@
+/*--------------------------------------intro section-----------------------------------*/
+#intro{
+    margin-bottom: 0%;
+}
+
+.container-fluid{
+    padding: 0 2% 0 1%; /*applied to nav bar and intro*/
+}
+.body{
+    margin:0;
+}
+
+#intro h1{
+    font-family: 'Fira Sans Condensed', sans-serif;;
+    font-size: 2.7rem;
+    line-height: 4rem;
+    color: #050706;
+    font-weight: bold; 
+    font-style: italic;
+}
+#intro h2{
+    color: #050706;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    padding-right: 7%;
+}
+#intro p{
+    color: #050706;
+    font-family:'DM Sans', sans-serif;
+    font-size: 1.3rem;
+}
+hr{
+   margin: 0px;
+   border: none;
+   height: 2px;
+   background-color: #050706;
+   opacity: 1;
+}
+
+
+/*--------------------------------------navigation bar-----------------------------------*/
+.navbar-logo{
+    max-width: 4rem;
+    height: auto;
+    padding-left: 10%;
+}
+.navbar{
+    background-color: #16ac90;
+    padding-bottom: 0%;
+}
+.nav-item{
+    padding:18px;
+}
+.navbar-link{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:1.1rem;
+    color: #050706;
+    text-decoration: none;
+}
+a:hover{
+    color: #050706;
+    text-decoration: none;
+}
+/*--------------------------------------navbar dropdown item-----------------------------------*/
+#navbarDropdown{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:1.1rem;
+    padding:0;
+}
+.dropdown:hover #navbarDropdown { /*this the links in dropdown*/
+    text-decoration: none;
+}
+.dropdown-item{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:1.1rem;
+    color: #050706;
+}
+.dropdown-item:hover{
+    background-color: #D9F026;
+    text-decoration: underline;
+}
+.dropdown-menu{
+    background-color: #D9F026;
+}
+/*hamburger button color*/
+.custom-toggler.navbar-toggler {
+    border-color: #149B83;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#EFEEEB;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/*--------------------------------------introduction-----------------------------------*/
+.introduction{
+    padding:13% 5%;
+    background-color: #45b9f3;
+}
+.intro-links{
+    text-align: left;
+    padding: 5% 0 0 0;
+}
+.introduction button {
+    background-color:#D9F026;
+    transition-duration: 0.4s;
+    padding: 0 2%;
+}
+.introduction button:hover {
+    background-color: #050706;
+}
+
+
+/*--------------------------------------project section-----------------------------------*/
+#project{
+    padding:13% 5% 13%;
+    background-color:#16ac90;
+    /*this was the code to make the phone go to the middle when in mobile screen
+    z-index: 1;
+    position: relative;*/
+}
+.project-box{
+    background-color: #84ccbc; 
+}
+#project img{
+    max-width: 100%;
+    width:300px;
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius: 50%;
+}
+.project-image{
+    padding: 5% 2%;
+}
+.project-text{
+    text-align: left;
+    padding: 5% 2%;
+    display: inline-block;
+}
+#project h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-style:italic;
+    line-height: 2rem;
+    color:#050706;
+}
+#project h2{
+    color:#050706;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+#project p{
+    color:#050706;
+    font-family:'DM Sans', sans-serif;
+    font-size: 1.3rem;
+    padding:5% 0 ;
+}
+#project button {
+    background-color:#D9F026;
+    transition-duration: 0.4s;
+    padding: 0 2%;
+}
+#project button:hover {
+    background-color: #050706;
+}
+.read-more{
+    font-size: 1.5rem;
+    font-family:'Archivo Black', sans-serif;
+    color:#050706;
+    text-decoration: none;
+}
+.read-more:hover{
+    color: #D9F026;
+}
+
+/*--------------------------------------footer section-----------------------------------*/
+#footer{
+    padding: 5% 2% 5% 7%;
+    text-align: left;
+    background-color: #45b9f3;
+}
+#footer h3{
+    color: #050706;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+}
+.footer-links{
+    color:#050706;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.footer-links:hover{
+    background-color: #D9F026;
+}
+#footer p:hover{
+    background-color: #D9F026;
+    border-radius: 4px;
+}
+.footer-logo{
+    padding: 0 0% 0 10%;
+}
+#footer img{
+    max-width: 150px;
+}
+
+.grow img{
+    transition: 1s ease;
+}
+        
+.grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+/*--------------------------------------about me page-----------------------------------*/
+
+.about{
+    padding:5% 5%;
+    background-color: #45b9f3;
+}
+#about-me h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 2.7rem;
+    line-height: 4rem;
+    color: #050706;
+    font-weight: bold; 
+    font-style: italic;
+    text-align: right;
+}
+#about-me .about-me-text{
+    text-align: left;
+    vertical-align: middle;
+    padding: 12% 0;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+#about-me img{
+    max-width: 100%;
+    width:400px;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+#about-me .fadein img{
+    opacity:0.5;
+    transition: 1s ease;
+    }
+    
+#about-me .fadein img:hover{
+    opacity:1;
+    transition: 1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries - used to apply style based on browser's characteristics like width, size, and screen resolution, or if they're using touchscreen vs mouse
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+*/
+
