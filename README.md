@@ -1,3 +1,4 @@
 # portfolio
 Jodi Roe Student Design Portfolio 
-https://github.com/jodiiroe/portfolio.git
+
+Check out my portfolio at https://jodiiroe.github.io/portfolio/ 
