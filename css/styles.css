@@ -11,60 +11,60 @@
 }
 
 #intro h1{
-    font-family: 'Fira Sans Condensed', sans-serif;;
-    font-size: 2.7rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
     line-height: 4rem;
-    color: #050706;
-    font-weight: bold; 
+    color: #0C1111;
     font-style: italic;
+    font-weight: bold;
 }
 #intro h2{
-    color: #050706;
+    color: #0C1111;
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 2.7rem;
     padding-right: 7%;
 }
-#intro p{
-    color: #050706;
+p{
+    color: #0C1111;
     font-family:'DM Sans', sans-serif;
     font-size: 1.3rem;
 }
 hr{
-   margin: 0px;
-   border: none;
-   height: 2px;
-   background-color: #050706;
-   opacity: 1;
-}
+    margin: 0px;
+    border: none;
+    height: .5px;
+    background-color: #0C1111;
+    opacity: 1;
+ }
 
 
 /*--------------------------------------navigation bar-----------------------------------*/
 .navbar-logo{
-    max-width: 4rem;
+    max-width: 9.5rem;
     height: auto;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .navbar{
-    background-color: #16ac90;
-    padding-bottom: 0%;
+    background-color: #FEFCEC;
+    padding: 0 5%;
 }
 .nav-item{
     padding:18px;
 }
 .navbar-link{
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size:1.1rem;
-    color: #050706;
+    color: #0C1111;
     text-decoration: none;
 }
 a:hover{
-    color: #050706;
+    color: #0C1111;
     text-decoration: none;
 }
 /*--------------------------------------navbar dropdown item-----------------------------------*/
 #navbarDropdown{
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size:1.1rem;
     padding:0;
 }
@@ -72,20 +72,19 @@ a:hover{
     text-decoration: none;
 }
 .dropdown-item{
-    font-family: 'Archivo Black', sans-serif;
-    font-size:1.1rem;
-    color: #050706;
+    font-family: 'DM Sans', sans-serif;
+    font-size:1rem;
+    color: #0C1111;
 }
 .dropdown-item:hover{
-    background-color: #D9F026;
-    text-decoration: underline;
+    background-color: #FD363B;
 }
 .dropdown-menu{
-    background-color: #D9F026;
+    background-color: #FEFCEC;
 }
 /*hamburger button color*/
 .custom-toggler.navbar-toggler {
-    border-color: #149B83;
+    border-color: #0C1111;
 }
 .custom-toggler .navbar-toggler-icon {
     background-image: url(
@@ -104,7 +103,7 @@ a:hover{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color:#EFEEEB;
+    background-color:#FD363B;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -115,33 +114,46 @@ a:hover{
 
 /*--------------------------------------introduction-----------------------------------*/
 .introduction{
-    padding:13% 5%;
-    background-color: #45b9f3;
+    padding:7% 13% 12% 10%;
+    background-color: #E3EDFE;
 }
 .intro-links{
     text-align: left;
     padding: 5% 0 0 0;
 }
+.read-more{
+    font-size: 1.2rem;
+    font-family:'"DM Sans"', sans-serif;
+    color:#005695;
+    font-style: italic;
+    text-decoration: none;
+}
+.read-more:hover{
+    color: #FD363B;
+}
 .introduction button {
-    background-color:#D9F026;
+    background-color:#FEFCEC;
+    border: 1px solid #D8D5CA;
     transition-duration: 0.4s;
-    padding: 0 2%;
+    padding: 2% 6%;
+    border-radius: 50%;
 }
-.introduction button:hover {
-    background-color: #050706;
-}
+
+
+
+
 
 
 /*--------------------------------------project section-----------------------------------*/
 #project{
-    padding:13% 5% 13%;
-    background-color:#16ac90;
+    padding:9% 11%;
+    background-color:#FEFCEC;
     /*this was the code to make the phone go to the middle when in mobile screen
     z-index: 1;
     position: relative;*/
 }
 .project-box{
-    background-color: #84ccbc; 
+    border: 1.5px solid #005695; 
 }
 #project img{
     max-width: 100%;
@@ -152,79 +164,79 @@ a:hover{
     border-radius: 50%;
 }
 .project-image{
-    padding: 5% 2%;
+    padding: 5% 5%;
 }
 .project-text{
     text-align: left;
-    padding: 5% 2%;
+    padding: 5% 5%;
     display: inline-block;
 }
 #project h1{
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-size: 2.7rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.2rem;
     font-weight: bold;
     font-style:italic;
     line-height: 2rem;
-    color:#050706;
+    color:#0C1111;
 }
 #project h2{
-    color:#050706;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    color:#0C1111;
+    font-family: '"DM Sans"', sans-serif;
     font-size: 1.5rem;
 }
 #project p{
-    color:#050706;
+    color:#0C1111;
     font-family:'DM Sans', sans-serif;
     font-size: 1.3rem;
+    font-style:normal;
     padding:5% 0 ;
 }
 #project button {
-    background-color:#D9F026;
+    background-color:#005695;
     transition-duration: 0.4s;
     padding: 0 2%;
+    border: 0px;
 }
-#project button:hover {
-    background-color: #050706;
-}
-.read-more{
+#project .read-more{
     font-size: 1.5rem;
-    font-family:'Archivo Black', sans-serif;
-    color:#050706;
+    font-family:'"DM Sans"', sans-serif;
+    color:white;
+    font-weight: 550;
     text-decoration: none;
 }
-.read-more:hover{
-    color: #D9F026;
+#project .read-more:hover{
+    color: #D8D5CA;
 }
+
+
 
 /*--------------------------------------footer section-----------------------------------*/
 #footer{
-    padding: 5% 2% 5% 7%;
+    padding: 5% 2% 1% 7%;
     text-align: left;
-    background-color: #45b9f3;
+    background-color: #E3EDFE;
 }
 #footer h3{
-    color: #050706;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 2rem;
+    color: #0C1111;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 .footer-links{
-    color:#050706;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    color:#0C1111;
+    font-family: 'DM sans', sans-serif;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-.footer-links:hover{
-    background-color: #D9F026;
-}
-#footer p:hover{
-    background-color: #D9F026;
+.footer-links :hover{
+    background-color: #FD363B;
     border-radius: 4px;
 }
 .footer-logo{
     padding: 0 0% 0 10%;
 }
 #footer img{
-    max-width: 150px;
+    max-width: 250px;
 }
 
 .grow img{
@@ -242,13 +254,13 @@ a:hover{
 
 .about{
     padding:5% 5%;
-    background-color: #45b9f3;
+    background-color: #E3EDFE;
 }
 #about-me h1{
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-size: 2.7rem;
-    line-height: 4rem;
-    color: #050706;
+    font-family: '"DM Sans"', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: #0C1111;
     font-weight: bold; 
     font-style: italic;
     text-align: right;
@@ -256,8 +268,8 @@ a:hover{
 #about-me .about-me-text{
     text-align: left;
     vertical-align: middle;
-    padding: 12% 0;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 8.5% 0 12% 0;
+    font-family: '"DM Sans"', sans-serif;
     font-size: 1.2rem;
 
 }
@@ -283,20 +295,11 @@ a:hover{
     color: black;
     text-decoration: none;
     text-decoration: underline;
+    text-decoration-color: #FD363B;
 }
 .redirect:hover{
-    color:#EFEEEB;
+    color: #FD363B;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
